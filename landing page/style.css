@@ -1,0 +1,147 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Header Section */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  margin-left: auto;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-contact {
+  display: flex;
+  align-items: center;
+}
+
+.header-contact span {
+  margin-right: 15px;
+  float: left;
+}
+
+.cta {
+  background-color: #ff6347;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('https://www.springboard.com/blog/wp-content/uploads/2022/06/digital-marketing-1.png');
+  background-size: cover;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+}
+
+.cta {
+  background-color: #ff6347;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Services Section */
+.services {
+  background: linear-gradient(90deg, #ff6347 0%, #ff4d4d 100%);
+  color: #fff;
+  padding: 50px 0;
+}
+
+.services .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.service {
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+  padding: 15px;
+}
+
+.service img {
+  max-width: 200px;
+  margin-bottom: 15px;
+}
+
+/* About Us Section */
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.about-text {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
